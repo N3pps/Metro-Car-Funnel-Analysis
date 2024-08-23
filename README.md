@@ -1,24 +1,28 @@
 # Metro-Car-Funnel-Analysis
 #### Data-driven Funnel Analysis on the Customer Journey
+## 🌎 Background
+Metrocar's business model is based on a platform that connects riders with drivers through a mobile application. Metrocar acts as an intermediary between riders and drivers, providing a user-friendly platform to connect them and facilitate the ride-hailing process
 
 [Executive Summary](https://doc.clickup.com/9012190783/d/h/8cjp7hz-592/b6c873e7a7f6743)
 
-[Here](https://colab.research.google.com/drive/1rmN6AVyNwf-so1Y2CaxPQPtrdfQoV8K0?usp=sharing) you can find the Jupyter Notebook used.
+[Here](https://colab.research.google.com/drive/1HEiP4kOojeOjysy5AUcG5eqFUgBsenFy?usp=sharing) you can find the Jupyter Notebook used.
 
 [Here](https://github.com/N3pps/Metro-Car-Funnel-Analysis/blob/main/Metro%20Car%20Presentation%20Slides.pdf) you can find the Presentation Slides
 
 ## 🔭 Project Overview:
-This project focuses on analyzing the customer and Rider experience of Metrocar, a ride-sharing app similar to Uber or Lyft. We tryed to identify opportunities for improvement and optimization through a Funnel Analysis. We used a [Jupyter Notebook](https://colab.research.google.com/drive/1rmN6AVyNwf-so1Y2CaxPQPtrdfQoV8K0?usp=sharing) and **SQLAlchemy** to query the Data from the **PostgreSQL Database**. For analysis, and data Vizualisation we used **pandas, numpy, plotly, seaborn** and **matplotlib**.
+This project focuses on analyzing the customer and Rider experience of Metrocar. We tryed to identify opportunities for improvement and optimization through a Funnel Analysis. We used a [Jupyter Notebook](https://colab.research.google.com/drive/1HEiP4kOojeOjysy5AUcG5eqFUgBsenFy?usp=sharing) and **SQLAlchemy** to query the Data from the **PostgreSQL Database**. For analysis, and data Vizualisation we used **pandas, numpy, plotly, seaborn** and **matplotlib**.
 
 
 ## 🎯 Objectives                                                          
 Answering the following Questions:
 * Are there any significant drop-off points preventing users from completing their first ride?
   * If yes, can our Data help us reduce the biggest drop-off points?
-* What steps of the Customer Journey should we research and improve? 
+* What steps of the Customer Journey should we research and improve?
+* Are there any significant drop-off points preventing drivers from fullfilling orders?
 
 ## 🔍 Methodology                                                     
-Our first task was extracting the raw data working on a  Jupyter Notebook hosted on Google Colab, using "SQL Alchemy" Python Library to exctract data from a PostgreSQL Database, across five key tables, generating a wide array of metrics. 
+Our first task was extracting the raw data working on a  Jupyter Notebook hosted on Google Colab, using "SQL Alchemy" Python Library to exctract data from a PostgreSQL Database, across five key tables, generating a wide array of metrics. The main focus was on understanding the dataset using Pandas. In this process we answered several Business related Questions and visualize our data to make it easy to understand. 
+Next we collected the Data Necessary to build our Funnels and Visualize them.
 
 
 ## 💡 Key Findings                                                        
@@ -41,7 +45,7 @@ By pinpointing these sources, we can develop targeted strategies to address and 
 Potential questions could address aspects such as satisfaction with the app's usability. Simply adding this additional step in the cancellation process could help reduce churn by itself.
 
 ### 3. Investigating the Reason why one-third of ride requests are not accepted
-This could be due to various reasons such as driver unavailability, mismatches between driver and rider locations, or system inefficiencies. We could start by interviewing a select Group of our drivers who are in this group to find out about some of the Reasons they didnt accept a ride.
+This could be due to various reasons such as driver unavailability, mismatches between driver and rider locations, or system inefficiencies. We could start by surveying a select Group of our drivers who are in this group to find out about some of the Reasons they didnt accept a ride.
 
 ## 📄 Appendix
 
@@ -52,7 +56,7 @@ Collaborators: [Faustina Owusu Afriyie](https://www.linkedin.com/in/faustina-owu
 The dataset:
 "postgresql://Test:bQNxVzJL4g6u@ep<area>-noisy-flower-846766-pooler.us-east-2.aws.neon.tech/Metrocar"
 
-[Here](https://colab.research.google.com/drive/1rmN6AVyNwf-so1Y2CaxPQPtrdfQoV8K0?usp=sharing) you can find the Jupyter Notebook.
+[Here](https://colab.research.google.com/drive/1HEiP4kOojeOjysy5AUcG5eqFUgBsenFy?usp=sharing) you can find the Jupyter Notebook.
 
 
 
