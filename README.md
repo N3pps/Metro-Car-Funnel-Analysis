@@ -21,9 +21,31 @@ Answering the following Questions:
 * Are there any significant drop-off points preventing drivers from fullfilling orders?
 
 ## 🔍 Methodology                                                     
-Our first task was extracting the raw data working on a  Jupyter Notebook hosted on Google Colab, using "SQL Alchemy" Python Library to exctract data from a PostgreSQL Database, across five key tables, generating a wide array of metrics. The main focus was on understanding the dataset using Pandas. In this process we answered several Business related Questions and visualize our data to make it easy to understand. 
-Next we collected the Data Necessary to build our Funnels and Visualize them.
+### Data Cleaning and Preparation
+Our first task was extracting the raw data working on a  Jupyter Notebook hosted on Google Colab, using "SQL Alchemy" Python Library to exctract data from a PostgreSQL Database, across five key tables, generating a wide array of metrics. The main focus was on understanding the dataset using Pandas and creating a main Table to work with.
 
+### Exploratory Data Analysis (EDA)
+In this process we answered several Business related Questions like:
+What is the average time of a ride from pick up to drop off?
+We build some visualize our data to make it easy to understand. 
+
+### Funnel Analysis
+Next we collected the Data Necessary to build our Funnels to find out where we lose most users to complete their first ride.
+For the User Table it was the following Steps:
+1. App download
+2. Signup
+3. Ride request
+4. Driver acceptance
+5. Ride finished
+6. at least one payment
+7. Review
+
+For the driver related "Orders fullfilled" Funnel it was the following Steps:
+1. Ride request
+2. Driver acceptance
+3. Ride finished
+4. Ride paid
+5. Ride reviewed
 
 ## 💡 Key Findings                                                        
 
