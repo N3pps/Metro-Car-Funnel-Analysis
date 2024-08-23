@@ -10,7 +10,7 @@ Metrocar's business model is based on a platform that connects riders with drive
 [Here](https://github.com/N3pps/Metro-Car-Funnel-Analysis/blob/main/Metro%20Car%20Presentation%20Slides.pdf) you can find the Presentation Slides
 
 ## 🔭 Project Overview:
-This project focuses on analyzing the customer and Rider experience of Metrocar. We tryed to identify opportunities for improvement and optimization through a Funnel Analysis. We used a [Jupyter Notebook](https://colab.research.google.com/drive/1HEiP4kOojeOjysy5AUcG5eqFUgBsenFy?usp=sharing) and **SQLAlchemy** to query the Data from the **PostgreSQL Database**. For analysis, and data Vizualisation we used **pandas, numpy, plotly, seaborn** and **matplotlib**.
+This project focuses on analyzing the customer and rider experience of Metrocar. We aimed to identify opportunities for improvement and optimization through a funnel analysis. We used a [Jupyter Notebook](https://colab.research.google.com/drive/1HEiP4kOojeOjysy5AUcG5eqFUgBsenFy?usp=sharing) and SQLAlchemy to query data from the PostgreSQL database. For analysis and data visualization, we used Pandas, NumPy, Plotly, Seaborn, and Matplotlib  and **SQLAlchemy** to query the Data from the **PostgreSQL Database**. For analysis, and data Vizualisation we used **pandas, numpy, plotly, seaborn** and **matplotlib**.
 
 
 ## 🎯 Objectives                                                          
