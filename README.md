@@ -1,5 +1,8 @@
 # Metro-Car-Funnel-Analysis
 #### Data-driven Funnel Analysis on the Customer Journey
+<img src="https://github.com/user-attachments/assets/5337e307-7934-453d-9606-1558fa22890c" alt="Funnel Analysis" width="400"/>
+
+
 ## 🌎 Background
 Metrocar's business model is based on a platform that connects riders with drivers through a mobile application. Metrocar acts as an intermediary between riders and drivers, providing a user-friendly platform to connect them and facilitate the ride-hailing process
 
