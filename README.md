@@ -1,11 +1,15 @@
 # Metro-Car-Funnel-Analysis
 #### Data-driven Funnel Analysis on the Customer Journey
-The dataset:
-"postgresql://Test:bQNxVzJL4g6u@ep<area>-noisy-flower-846766-pooler.us-east-2.aws.neon.tech/Metrocar"
 
 [Executive Summary](https://doc.clickup.com/9012190783/d/h/8cjp7hz-592/b6c873e7a7f6743)
 
 [Here](https://colab.research.google.com/drive/1rmN6AVyNwf-so1Y2CaxPQPtrdfQoV8K0?usp=sharing) you can find the Jupyter Notebook used.
+
+[Here](https://github.com/N3pps/Metro-Car-Funnel-Analysis/blob/main/Metro%20Car%20Presentation%20Slides.pdf) you can find the Presentation Slides
+
+## 🔭 Project Overview:
+This project focuses on analyzing the customer and Rider experience of Metrocar, a ride-sharing app similar to Uber or Lyft. We tryed to identify opportunities for improvement and optimization through a Funnel Analysis. We used a [Jupyter Notebook](https://colab.research.google.com/drive/1rmN6AVyNwf-so1Y2CaxPQPtrdfQoV8K0?usp=sharing) and **SQLAlchemy** to query the Data from the **PostgreSQL Database**. For analysis, and data Vizualisation we used **pandas, numpy, plotly, seaborn** and **matplotlib**.
+
 
 ## 🎯 Objectives                                                          
 Answering the following Questions:
@@ -14,34 +18,43 @@ Answering the following Questions:
 * What steps of the Customer Journey should we research and improve? 
 
 ## 🔍 Methodology                                                     
-Our first task was extracting the raw data working on a  Jupyter Notebook hosted on Google Colab, using "SQL Alchemy" Python Library to exctract data from a PostgreSQL Database, across five key tables, generating a wide array of metrics. The data was then further processed and analyzed using several other Python Librarys. To classify customers into distinct groups we created a Users lost and Orders fullfilled Funnel. 
+Our first task was extracting the raw data working on a  Jupyter Notebook hosted on Google Colab, using "SQL Alchemy" Python Library to exctract data from a PostgreSQL Database, across five key tables, generating a wide array of metrics. 
 
 
 ## 💡 Key Findings                                                        
 
 ### Users lost Funnel
 ![image](https://github.com/user-attachments/assets/4be1a6e2-2094-41bd-900d-8475c4bbd002)
-
+* Nearly half of the users, who have a driver accepting their request, do not proceed to complete the ride.
 
 ## 
 
 ### Orders fullfilled
 ![image](https://github.com/user-attachments/assets/c6fcc9b5-403c-458c-9da7-4207b1638db9)
-
-<br>&nbsp;<br>
+* 35.6 % of ride requests are not accepted. 
 
 ## 📈 Recommendations                                              
-### 1. Implementation of a tailored rewards program
-To enhance customer loyalty and maximize the effectiveness of our marketing efforts, we recommend the implementation of a tailored rewards program based on the insights gained from the Customer Segmentation Analysis. By aligning rewards with the specific preferences and behaviors of our identified customer segments, we can create more personalized and appealing incentives that drive engagement and repeat business.
+### 1. Tracking cancellation source
+By pinpointing these sources, we can develop targeted strategies to address and reduce cancellations, ultimately improving the overall success rate of ride completions.
 
-### 2. A/B testing
-Additionally, to ensure the rewards program delivers optimal results, we propose conducting A/B testing during the rollout phase. This will allow us to evaluate the effectiveness of different perks and promotional strategies in real-time, providing actionable data to fine-tune the program. By continuously monitoring customer responses, we can adapt and improve the rewards offering, ultimately leading to higher satisfaction and loyalty.
+### 2. Potential Survey for Cancellations
+Potential questions could address aspects such as satisfaction with the app's usability. Simply adding this additional step in the cancellation process could help reduce churn by itself.
+
+### 3. Investigating the Reason why one-third of ride requests are not accepted
+This could be due to various reasons such as driver unavailability, mismatches between driver and rider locations, or system inefficiencies. We could start by interviewing a select Group of our drivers who are in this group to find out about some of the Reasons they didnt accept a ride.
 
 ## 📄 Appendix
-[Here](https://colab.research.google.com/drive/1rmN6AVyNwf-so1Y2CaxPQPtrdfQoV8K0?usp=sharing) you can find the Jupyter Notebook.
-Decision Tree used in the Segmentation:
 
-![image](https://github.com/user-attachments/assets/1681af00-9ef3-4673-9a3d-6a2d1c1b868b)
+Presented by: [Anastasios Mastorakis](https://www.linkedin.com/in/anastasios-mastorakis/), [Slides](https://github.com/N3pps/Metro-Car-Funnel-Analysis/blob/main/Metro%20Car%20Presentation%20Slides.pdf)
+
+Collaborators: [Faustina Owusu Afriyie](https://www.linkedin.com/in/faustina-owusu-afriyie-878452290/), [Felix Agyei-Sasu, PhD](https://www.linkedin.com/in/felix-agyei-sasu/)
+
+The dataset:
+"postgresql://Test:bQNxVzJL4g6u@ep<area>-noisy-flower-846766-pooler.us-east-2.aws.neon.tech/Metrocar"
+
+[Here](https://colab.research.google.com/drive/1rmN6AVyNwf-so1Y2CaxPQPtrdfQoV8K0?usp=sharing) you can find the Jupyter Notebook.
+
+
 
 
 
